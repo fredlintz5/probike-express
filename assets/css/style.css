@@ -1,0 +1,102 @@
+
+li a {cursor: pointer;}
+nav a {cursor: pointer;}
+
+footer {
+	color: rgba(255,255,255,.6);
+	padding-top: 20px;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0px;
+}
+
+footer a {color: rgba(255,255,255,.6);}
+footer a:hover {
+	color: rgba(255,255,255,.8);
+	text-decoration: none;
+}
+
+footer hr {border-color: rgba(255,255,255,.3);}
+
+.btn-link {
+	color: rgba(34,130,175, 0.8);
+	text-decoration: none;
+}
+
+.btn-link:hover {
+	color: rgba(34,130,175, 1.0);
+	text-decoration: none;
+}
+
+.fa {font-size: 2em}
+
+.navbar {transition: 0.45s}
+.navPush {margin-bottom: -200px}
+.nav-customBlue {background-color: #2282AF;}
+
+.nav-boxShadow {
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+	z-index: 20;
+}
+
+.nav-search {width: 50%;}
+
+.carousel-height {height: 89vh;}
+
+.carousel-caption {
+	background-color: rgba(203,128,55,0.8);
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding: 30px 0px 30px 0px;
+}
+
+.carousel-indicators {bottom: 10px;}
+
+.footer-bg {background-color: #2282AF;}
+.copyright-bg {background-color: #0C0C0C}
+
+.modal-customBlue {color: #2282AF;}
+#privacyModal span {color: #0C0C0C;}
+
+#searchIcon {cursor: pointer;}
+
+#carouselOne {
+	background-image: url("http://3v718laqyo244ii5v20dg6ff.wpengine.netdna-cdn.com/wp-content/uploads/2017/10/Essential-Gear-for-Cyclocross-752x472.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#carouselTwo {
+	background-image: url("http://static1.squarespace.com/static/55b03ecbe4b08745c52f04ff/561ebf96e4b0718132637274/597a4b2c6f4ca39b732672cc/1501187072936/How_to_Practice_Your_Triathlon_Transition.jpg?format=1000w");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#carouselThree {
+	background-image: url("https://swissblogdotnet.files.wordpress.com/2013/11/dsc_0530.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+
+@media (min-width: 992px) {
+	.nav-search {width: 250px;}
+
+	#carouselThree {
+		background-position: center;
+	}
+}
+
+
+
+
+
+
